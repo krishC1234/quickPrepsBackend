@@ -159,6 +159,7 @@ export class TestService {
         test.status = TestStatus.COMPLETED;
         test.updatedAt = Date.now();
         await test.save();
+        //These are the new changes
         let response = { "question": null, "_id": test._id, "status": test.status, "finalScore": test.finalScore, "currentIndex": test.currentIndex, "size": 3 };
 
 

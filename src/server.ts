@@ -5,6 +5,8 @@ import { Routes } from './startups/routes';
 import { Cors } from "./startups/cors";
 import * as compression from "compression";
 
+//now code is in github
+
 class Server {
   private static port: number = 8000;
 
